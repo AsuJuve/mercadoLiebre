@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path= require('path');
+const port = process.env.PORT || 80;
 
 app.listen(3010, () => {
     console.log('Servidor corriendo correctamente en el puerto 3010');
